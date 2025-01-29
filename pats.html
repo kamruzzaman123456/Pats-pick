@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     
-    <title>Peddy Pick</title>
+    <title>Peddy - Pet Adoption Platform</title>
     <style>
         .font-familly{
             font-family: "Lato", serif;
@@ -19,16 +19,119 @@
 </head>
 <body class=".font-familly">
     <!--Web Header -->
-<header>
-
+<header class="lg:mx-[100px] md:mx-[50px]">
+<div class="navbar bg-base-100">
+<div class="navbar-start">
+  <div class="dropdown">
+    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"d="M4 6h16M4 12h8m-8 6h16" />
+      </svg>
+    </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        <li><a href="pats.html">Home</a></li>
+        <li><a>Shop</a></li>
+        <li><a>Contact</a></li>
+        </ul>
+    </div>
+    <a class=" text-4xl font-bold flex gap-2"><img class="h-[38px]" src="images/logo.webp" alt="">Peddy</a>
+</div>
+    <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li class="text-xl font-bold "><a href="pats.html">Home</a></li>
+      <li class="text-xl font-bold "><a>Shop</a></li>
+      <li class="text-xl font-bold "><a>Contact</a></li>
+    </ul>
+</div>
+    <div class="navbar-end">
+    <button class="hover:bg-gray-200 rounded-[100%] p-2"><img src="images/frame4.png" alt=""></button> 
+    </div>
+</div>
 </header>
 <!-- Main content -->
 <main>
+  <section class="mt-3">
+    <div class="text-center ">
+        <p class="text-[#717171]  text-2xl font-bold">Bringing Families Together ❤️‍🔥 </p>
+        <h1 class="text-6xl font-bold mt-5">Your Path to Adoptionb <br>Starts Here</h1>
+        <p class="mt-10">It is a long established fact that a reader will be distracted by the readable content of a page when looking <br>at its layout. The point of using Lorem Ipsum is that it has a.</p>
+        <button class="btn text-xl font-bold text-white bg-[#0E7A81] mt-10 px-5">View More</button>
+        <div  class="flex justify-center mt-5 " >
+          <img src="images/pet.webp" alt="">
+        </div>
+        
+    </div>
+  </section> 
 
+  <!-- Best friend -->
+  <section class="mt-20 lg:mx-[100px] md:mx-[50px]">
+    <div>
+    <h1 class="text-5xl font-bold text-center">Adopt  Your  Best Friend</h1>
+    <p class="text-center mt-5 font-semibold text-[#7E7E7E]">It is a long established fact that a reader will be distracted by the readable content of a page   <br>when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+  </div>
+
+<!-- Pats catagoris -->
+  <div id="catagoris" class="grid lg:grid-cols-4 md:grid-cols-2 mt-10 text-xl font-bold">
+   
+  </div>
+
+  <div class="lg:flex lg:justify-between my-10 sm:text-center ">
+  <h1 class="text-3xl font-bold sm:mt-3">Best Deal For you</h1>
+  <button class="bg-[#0E7A81] p-5 lg:px-7 text-xl font-bold text-white rounded-[12px] sm:mt-3">Sort by Price</button>
+  </div>
+  </section>
+  
+  <!-- pats colection section -->
+
+  <section class="mt-10 lg:mx-[100px] md:mx-[50px]">
+    <div class="lg:flex gap-2 justify-between">
+
+    <div id="all-pats" class="grid lg:grid-cols-3 sm:grid-cols-2 gap-5 ">
+    
+    </div>
+
+    <div id="likedPats" class="h-[600px] lg:w-[400px] border-solid border-2 border-[#F8F8F8] rounded-lg ">
+   
+    </div>
+  </div>
+  </section>
 </main>
 <!-- Web Footer -->
-<footer>
-    
+<footer class="footer bg-[#131313] text-base-content p-10 mt-10">
+  
+  <nav class="lg:pl-[11.25rem]">
+    <a class=" text-4xl font-bold flex gap-2"><img class="h-[38px]" src="images/logo.webp" alt="">Peddy</a>
+    <a class="link link-hover text-white mt-3">Location: av. Washington 165, NY CA </a>
+    <a class="link link-hover text-white mt-3">54003</a>
+    <a class="link link-hover text-white mt-3">Phone: +31 85 964 47 25</a>
+    <a class="link link-hover text-white mt-3">Email: info@yourdomain.com</a>
+    <a class="link link-hover text-white mt-3">Openings hours: 9.00 AM - 5.00 PM</a>
+    <div class="flex gap-2 mt-3">
+     <img src="images/group2.png" alt="">
+     <img src="images/vector.png" alt="">
+     <img src="images/instagram-2016-51.png" alt="">
+     <img src="images/x-21.png" alt="">
+    </div>
+  </nav>
+  <nav class="lg:pl-[3.5rem]">
+    <h6 class="footer-title text-white text-2xl">Useful Links</h6>
+    <a href="pats.html" class="link link-hover text-[#636363]">Home</a>
+    <a class="link link-hover text-[#636363]">About us</a>
+    <a class="link link-hover text-[#636363]">Animals</a>
+    <a class="link link-hover text-[#636363]">Foundation</a>
+    <a class="link link-hover text-[#636363]">Contact</a>
+  </nav>
+ 
+  <form>
+    <h6 class="footer-title text-white text-2xl">Drop a Message</h6>
+    <fieldset class="form-control w-80">
+      
+      <div class="">
+        <input type="text" placeholder="Enter your email" class="input  bg-[#1F1F1F] text-white"/>
+        <button class=" bg-[#0E7A81] px-[63px] py-3 rounded-lg text-xl text-2xl text-[#383838] font-bold mt-3">Subscribe</button>
+      </div>
+    </fieldset>
+  </form>
 </footer>
 
 <script src="pats.js"></script>
